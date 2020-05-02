@@ -5,12 +5,13 @@ body {
 }
 
 body {
-  font: 1rem / 1.516 'Quicksand', Arial, sans-serif;
+  font: 18px 'Quicksand', Arial, sans-serif;
   color: #3B3B3B;
 }
 
 .lt-grid-container {
-  background-color: rgba(33, 33, 33, 0.25);
+  background: rgb(131,58,180);
+background: linear-gradient(209deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 .lt-grid-container {
