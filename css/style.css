@@ -6,7 +6,7 @@ body {
 
 body {
   font: 18px 'Quicksand', Arial, sans-serif;
-  color: #3B3B3B;
+  color: #000;
 }
 
 .lt-grid-container {
@@ -69,7 +69,7 @@ section {
 }
 
 section a {
-  color: #3B3B3B
+  color: #000
 }
 input {
   font-size: 16px;
