@@ -17,7 +17,7 @@ export const features = {
           
       </div>
       <div class='card zoom-me' id="f4" data-to='standaloneJSLibrary'">
-          Standalone JS library
+          Standalone JS framework
           
       </div>
 </div>`
