@@ -282,7 +282,8 @@ h2 {
   font-weight: 600;
   line-height: 1.38105;
   margin-block-start: 0em;
-    margin-block-end: 0.83em
+  margin-block-end: 0.83em;
+  white-space: nowrap;
 }
 
 .beta {
@@ -298,7 +299,7 @@ h2 {
   max-width: 750px;
   line-height: 1.38105;
   margin-block-start: 0.83em;
-    margin-block-end: 0.83em
+  margin-block-end: 0.83em
 }
 
 section {
@@ -352,6 +353,28 @@ input[type=submit] {
   font-weight: 400;
   -webkit-transition: all .235s ease-in-out;
   transition: all .235s ease-in-out;
+}
+
+.get-started {
+  -webkit-appearance: none !important;
+  border: 1px solid var(--accent-color);
+  padding: 12px 24px;
+  color: #212121;
+  background: var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  -webkit-transition: all .235s ease-in-out;
+  transition: all .235s ease-in-out;
+}
+.get-started:hover {
+  opacity: .5;
+}
+
+a.get-started{
+  text-decoration: none;
 }
 
 input[type=submit]:hover {
